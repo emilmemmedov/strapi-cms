@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_shared_facebook_meta_tags",
+  "info": {
+    "name": "facebook-meta-tags",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "facebookMetaTitle": {
+      "type": "string"
+    },
+    "facebookMetaDescription": {
+      "type": "text"
+    },
+    "facebookMetaUrl": {
+      "type": "string"
+    },
+    "facebookMetaSiteName": {
+      "type": "string"
+    },
+    "facebookMetaSeeAlso": {
+      "type": "string"
+    },
+    "facebookMetaImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "facebookMetaTypes": {
+      "type": "enumeration",
+      "enum": [
+        "article",
+        "website"
+      ]
+    },
+    "facebookMetaImageWidth": {
+      "type": "integer"
+    },
+    "facebookMetaImageHeight": {
+      "type": "integer"
+    }
+  }
+}

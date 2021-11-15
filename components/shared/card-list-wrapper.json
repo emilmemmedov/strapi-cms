@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_card_list_wrappers",
+  "info": {
+    "name": "card-list-wrapper",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "listItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-filosofy"
+    },
+    "wrapperName": {
+      "type": "string"
+    }
+  }
+}

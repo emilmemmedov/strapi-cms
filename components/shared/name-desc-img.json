@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_name_desc_imgs",
+  "info": {
+    "name": "name-desc-img",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

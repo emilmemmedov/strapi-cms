@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_twitter_meta_tags",
+  "info": {
+    "name": "twitterMetaTags",
+    "icon": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "twitterMetaTitle": {
+      "type": "string"
+    },
+    "twitterMetaUrl": {
+      "type": "string"
+    },
+    "twitterMetaDesc": {
+      "type": "text"
+    },
+    "twitterMetaCardType": {
+      "type": "enumeration",
+      "enum": [
+        "summary"
+      ]
+    },
+    "twitterMetaImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "companyfilosofypages",
+  "info": {
+    "name": "Companyfilosofypage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "filosofySection": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.company-filosofy"
+    }
+  }
+}

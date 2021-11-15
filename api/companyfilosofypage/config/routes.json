@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/companyfilosofypage",
+      "handler": "companyfilosofypage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/companyfilosofypage",
+      "handler": "companyfilosofypage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/companyfilosofypage",
+      "handler": "companyfilosofypage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

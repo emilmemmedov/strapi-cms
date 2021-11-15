@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appoints",
+  "info": {
+    "name": "appoints"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

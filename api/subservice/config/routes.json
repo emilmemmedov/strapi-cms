@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subservices",
+      "handler": "subservice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subservices/count",
+      "handler": "subservice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subservices/:id",
+      "handler": "subservice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subservices",
+      "handler": "subservice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subservices/:id",
+      "handler": "subservice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subservices/:id",
+      "handler": "subservice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

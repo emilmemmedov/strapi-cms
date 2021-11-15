@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "name": "Global",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "listWrapper": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card-list-wrapper"
+    }
+  }
+}

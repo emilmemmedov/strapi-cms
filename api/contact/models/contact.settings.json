@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "complaint",
+        "suggestion"
+      ]
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

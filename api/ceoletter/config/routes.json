@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ceoletter",
+      "handler": "ceoletter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ceoletter",
+      "handler": "ceoletter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ceoletter",
+      "handler": "ceoletter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

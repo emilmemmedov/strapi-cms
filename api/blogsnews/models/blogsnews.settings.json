@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogsnews",
+  "info": {
+    "name": "blogsnews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageMainContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.name-desc-img",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "facebookMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.facebook-meta-tags",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "twitterMetaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.twitter-meta-tags",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pageName": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "startDate": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "endDate": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageName",
+      "required": true
+    },
+    "shortDesc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "newsBlogTypes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "news",
+        "blog"
+      ]
+    }
+  }
+}

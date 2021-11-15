@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "name": "services",
+    "icon": "briefcase-medical"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
